@@ -17,12 +17,35 @@ please enter your num3:39
 tcloudost@tcloudost-VirtualBox ~/Documents/git_repositories/python-batches/batch-62 $ 
 
 '''
-
+#modified
 num1 = input("please enter you num1:")
 num2 = input("please enter your num2:")
 num3 = input("please enter your num3:")
 
-if num1 > num2 and num1 > num3:
+if(num1=num2):
+    if(num1=num3):
+        print "{0}  {1} and {2} are all equals".format(num1,num2,num3)
+    elif num1>num3
+        print "{0}  {1} are equal and greater than {2}" .format(num1,num2,num3)
+    else
+       print " {0} {1} are equal and less than {2}" .format(num1,num2,num3)
+elif(num2=num3):
+    if(num1=num3):
+        print "{0}  {1} and {2} are all equals".format(num1,num2,num3)
+    elif num1>num3
+        print "{0}  {1} are equal and greater than {2}" .format(num1,num2,num3)
+    else
+       print " {0} {1} are equal and less than {2}" .format(num1,num2,num3)
+elif(num1=num3):
+    if(num3=num2):
+        print "{0}  {1} and {2} are all equals".format(num1,num2,num3)
+    elif num3>num2
+        print "{0}  {2} are equal and greater than {1}" .format(num1,num2,num3)
+    else
+       print " {0} {2} are equal and less than {1}" .format(num1,num2,num3)
+    
+'''
+if (num1 > num2 or num1=num2) and (num1 > num3 or num1=num3):
     print "{0} is greater than {1} and {2}".format(num1,num2,num3)
 elif num2 > num1 and num2 > num3:
     print "{1} is greater than {0} and {2}".format(num1,num2,num3)
@@ -30,3 +53,4 @@ elif num3 > num1 and num3 > num2:
     print "{2} is greater than {1} and {0}".format(num1,num2,num3)
 else:
     print "{0}  {1} and {2} are all equals".format(num1,num2,num3)
+    '''
